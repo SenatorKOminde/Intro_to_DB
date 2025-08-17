@@ -36,8 +36,8 @@ CREATE TABLE Orders (
   FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 
--- STEP 7: CREATE Order_details TABLE
-CREATE TABLE Order_details (
+-- STEP 7: CREATE Order_Details TABLE
+CREATE TABLE Order_Details (
   orderdetailid INT AUTO_INCREMENT PRIMARY KEY,
   order_id INT,
   book_id INT,
